@@ -5,7 +5,7 @@ import os
 import google.generativeai as genai
 import streamlit as st
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-model=genai.GenerativeMode1("gemini.pro")
+model=genai.GenerativeMode1("gemini-pro")
 chat=genai.start_chat(history=[])
 
 def get_gemini_response(question):
