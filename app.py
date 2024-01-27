@@ -17,7 +17,7 @@ def get_gemini_response(question):
 
 ##initialize our streamlit app
 st.set_page_config(page_title="Q&A App")
-st.header("Conversational ChatBot")
+st.header("Name of famous scientists")
 
 # Initialize session state for chat history if it doesn't exist
 if 'chat_history' not in st.session_state:
